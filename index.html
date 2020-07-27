@@ -13,7 +13,31 @@
 <body>
 
     <div class="container mt-5">
-        <h1>{{"Hola Mundo desde AngularJS"}}</h1>
+        <h1>Filtros :: Filters</h1>
+        <h4>en angulajs</h4>
+        <hr>
+
+        <p>Filtro de texto: {{"JuAN"}}</p>
+        <br>
+        <p>Filtro de texto: {{"JuAN" | uppercase}}</p>
+        <br>
+        <p>Filtro de texto: {{"JuAN" | lowercase}}</p>
+
+        <hr>
+
+        <p>Filtro de moneda: {{3560}}</p>
+        <br>
+        <p>Filtro de texto: {{3560 | currency}}</p>
+        <br>
+        <p>Filtro de texto: {{3560 | currency:'COP'}}</p>
+        <br>
+        <p>Filtro de texto: {{3560 | currency:''}}</p>
+
+        <hr>
+
+        <p>Filtro de número: {{1478920}}</p>
+        <br>
+        <p>Filtro de número: {{1478920 | number}}</p>
     </div>
     
     <!-- JQUERY -->
